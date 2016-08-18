@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Screen</title>
+        <link rel="stylesheet" href="./LoginScreenStyle.css" class="style">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-box">
+                <div class="box" id="left">
+                    <div class="overlay"></div>
+                    <div id="big-mars"></div>
+                    <h1>The<br/>Martians</h1>
+                </div>
+                <div class="box" id="right">
+                    <div class="form">
+                        <form>
+                            <div class="input-container">
+                                <input type="text" id="Username" required="required" />
+                                <label for="Username">Username</label>
+                                <div class="bar"></div>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" id="Password" required="required" />
+                                <label for="Password">Password</label>
+                                <div class="bar"></div>
+                            </div>
+                            <div class="button-container" id="button-left">
+                                <button type="submit"><span>Sign In</span></button>
+                            </div>
+                            <div class="button-container" id="button-right">
+                                <button type="button" onclick="location.href='#'"><span>Sign Up</span></button>
+                            </div>
+                            <div class="footer"><a href="#">Forgot Password?</a></div>
+                        </form>
+                    </div>
+                    <div id="little-mars"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
